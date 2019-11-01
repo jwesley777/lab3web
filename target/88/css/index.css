@@ -1,0 +1,56 @@
+* {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    text-align: center;
+}
+.workspace-item-container{
+    display: inline-block;
+    width: calc(50% - 40px);
+    margin: 0px 20px 10px 20px;
+    vertical-align: top;
+}
+.parameter-container, .button-container{
+    margin-bottom: 10px;
+    padding: 0px 8px 8px 8px;
+}
+.parameter-container{
+    text-align: center;
+}
+
+.parameter-form-container{
+    padding: 10px 5px 0px 5px;
+    border: 2px solid black;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+}
+.submit-button{
+    color: white;
+    font-size: 18px;
+    background-color: lightblue;
+    border: 2px solid white;
+}
+
+.submit-button:hover{
+    background-color: #0F0F0F;
+    color: cornflowerblue;
+    border: 2px solid #A0A0A0;
+    transition: 0.3s;
+}
+
+.parameter-label{
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 auto 1% auto;
+}
+label{
+    color: grey;
+}
+
+#task-chart{
+    width: 330px;
+    height: 330px;
+}
